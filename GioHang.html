@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./Assets/giohang.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="./Assets/js/easing.min.js"></script>
+    <script src="./Assets/js/owl.carousel.min.js"></script>
+    <script src="./Assets/js/main.js"></script>
+    <script src="./Assets/owl.carousel.min.css"></script>
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <div class="head_page">
+        <p class="head_banner">
+            <img src="./Assets/Images/head_banner.jpg" alt="head_banner" width="100%">
+        </p>
+        <div class="head_container">
+           <div class="head_find">
+               <a href="index.html"><img src="./Assets/Images/vietlylogo.jpg" class="logo"></a>
+               <div class="finding_box">
+                   <input type="text" placeholder="Tìm sản phẩm mong muốn..." class="input_search">
+                   <button class="find_btn"><i class="fa fa-search" style="color: white; "></i></button>
+               </div>
+               <div class="user_function">
+                <div style="text-align: center; width: 33%; float: left">
+                    <p style="font-size: 24px; margin: 0px;">
+                        <a href="#"><i class="far fa-bell"></i></a>
+                    </p>
+                    <p style="margin: 0px; font-size: 16px;">Thông báo</p>
+                </div>
+                <div style="text-align: center; width: 33%; float: left;">
+                    <p style="font-size: 24px; margin: 0px;">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </p>
+                    <p style="margin: 0px; font-size: 16px;">Giỏ hàng</p>
+                </div>
+                <div style="text-align: center; width: 33%; float: left;">
+                    <p style="font-size: 24px; margin: 0px;">
+                        <a href="#"><i class="far fa-user"></i></a>
+                    </p>
+                    <p style="margin: 0px; font-size: 16px;">Lê Đăng Quang</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="shoping_cart">
+        <div class="container-fluid pt-5">
+            <div class="row px-xl-5">
+                <div class="col-lg-8 table-responsive mb-5">
+                    <table class="table table-bordered text-center mb-0">
+                        <thead class="bg-secondary text-dark">
+                            <tr>
+                                <th>Products</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr>
+                                <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-minus" >
+                                            <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle"><img src="img/product-2.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-minus" >
+                                            <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle"><img src="img/product-3.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-minus" >
+                                            <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle"><img src="img/product-4.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-minus" >
+                                            <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle"><img src="img/product-5.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-minus" >
+                                            <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-primary btn-plus">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">$150</td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-secondary mb-5">
+                        <div class="card-header bg-secondary border-0">
+                            <h4 class="font-weight-semi-bold m-0">Cart Summary</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between mb-3 pt-1">
+                                <h6 class="font-weight-medium">Subtotal</h6>
+                                <h6 class="font-weight-medium">$150</h6>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-medium">Shipping</h6>
+                                <h6 class="font-weight-medium">$10</h6>
+                            </div>
+                        </div>
+                        <div class="card-footer border-secondary bg-transparent">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5 class="font-weight-bold">Total</h5>
+                                <h5 class="font-weight-bold">$160</h5>
+                            </div>
+                            <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_footer">
+        <div class="thongtin">
+            <div class="bentrai">
+                <p><img src="./Assets/Images/vietlylogo.jpg" alt="" class="gido"></p>
+                <p>Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCMCông Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam</p>
+                <p>Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCMCông Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam</p>
+                <p style="margin-left: 150px; font-size: 20px;"><i class="fab fa-facebook"></i> <i class="fab fa-instagram-square"></i> <i class="fab fa-youtube-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-tumblr-square"></i> <i class="fab fa-pinterest-square"></i></p>
+            </div>
+            <div class="benphai">
+                <div class="chiaba">
+                    <h2>DỊCH VỤ</h2>
+                    <p class="dinhdang"><a href="#" class="typelink">Điều khoản sử dụng</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Chính sách bảo mật</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Giới thiệu Fahasa</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Hệ thống trung tâm - nhà sách</a></p>
+            
+                    
+                </div>
+                <div class="chiaba">
+                    <h2>HỖ TRỢ</h2>
+                    <p class="dinhdang"><a href="#" class="typelink">Chính sách đổi - trả - hoàn tiền</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Chính sách khách sỉ</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Phương thức vận chuyển</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Phương thức xuất HĐ</a></p>
+
+                
+                </div>
+                <div class="chiaba">
+                    <h2>TÀI KHOẢN</h2>
+                    <p class="dinhdang"><a href="#" class="typelink">Đăng nhập/Tạo mới tài khoản</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Thay đổi địa chỉ khách hàng</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Chi tiết tài khoản</a></p>
+                    <p class="dinhdang"><a href="#" class="typelink">Lịch sử mua hàng</a></p>
+         
+            
+                </div>
+                <div>
+                    <img src="./Assets/Images/Screenshot 2022-01-16 195201.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
