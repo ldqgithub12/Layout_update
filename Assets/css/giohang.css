@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+.clear{
+    clear: both;
+}
+body{
+    background-color: #f8f6f0;
+}
+.head_container{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+.head_find{
+    width: 1230px;
+    height: 68px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finding_box{
+    width: 600px;
+    height: 40px;
+    border: 1px solid #CDCFD0;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_search{
+    height: 20px;
+    width: 500px;
+    padding: 0px 80px 0px 24px;
+    border: none;
+    outline: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.find_btn{
+    width: 72px;
+    height: 30px;
+    color: #fff;
+    background-color: #C92127;
+    border: 2px solid #C92127;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.logo{
+    height: 68px;
+}
+.user_function{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.shoping_cart{
+    width: 1230px;
+    min-height: 400px;
+    background-color: white;
+    margin-top:15px ;
+    border-radius: 8px;
+    margin-left: 9.5%;
+}
+.page_footer{
+    width: 1230px;
+    min-height: 400px;
+    margin-left: 9.5%;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.bentrai{
+    width: 40%;
+    min-height: 150px;
+    background-color: white;
+    float: left;
+}
+.gido{
+    width: 50%;
+    min-height: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.benphai{
+    width: 55%;
+    min-height: 150px;
+    background-color:white;
+    float: left;
+    margin-left: 10px;
+}
+.chiaba{
+    width: 33%;
+    float: left;
+}
+.dinhdang{
+    margin-top: 20px;
+}
+.typelink{
+    text-decoration: none;
+    color: black;
+}
